@@ -31,10 +31,10 @@ function prependKitten(name){
   const newKittens = [name, ...kittens];
   return newKittens;
 }
-// function removeLastKitten(){
-//   kittens = slice(0, kittens.length -1);
-//   return kittens;
-// }
+function removeLastKitten(){
+  kittens = slice(0, kittens.length -1);
+  return kittens;
+}
 // function removeFirstKitten(){
 //   kittens = kittens.slice(1);
 //   return kittens;
@@ -45,4 +45,4 @@ destructivelyRemoveLastKitten();
 destructivelyRemoveFirstKitten();
 appendKitten("Broom");
 prependKitten("Arnold")
-// removeLastKitten();
+removeLastKitten();
