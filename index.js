@@ -39,7 +39,7 @@ function removeFirstKitten(){
   kittens = kittens.slice(1);
   return kittens;
 }
-destructivelyAppendKitten("socks");
+destructivelyAppendKitten("Ralph");
 destructivelyPrependKitten("socks");
 destructivelyRemoveLastKitten();
 destructivelyRemoveFirstKitten();
