@@ -36,7 +36,7 @@ function removeLastKitten(){
   return newKittens;
 }
 function removeFirstKitten(){
-  newKittens = kittens.slice(0);
+  newKittens = kittens.slice(1);
   return newKittens;
 }
 destructivelyAppendKitten("Ralph");
