@@ -30,3 +30,13 @@ function prependKittens(name){
   kittens = [name, ...kittens];
   return kittens;
 }
+function removeLastKittn(){
+  kittens = slice(0, kittens.length -1);
+  return kittens;
+}
+destructivelyAppendKitten("socks");
+destructivelyPrependKitten("socks");
+destructivelyRemoveLastKitten();
+destructivelyRemoveFirstKitten();
+appendKitten("socks");
+prependKitten("socks")
