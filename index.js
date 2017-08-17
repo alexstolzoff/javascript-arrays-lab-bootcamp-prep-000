@@ -22,11 +22,11 @@ function destructivelyRemoveFirstKitten(){
   return kittens;
 }
 
-// function appendKitten(name){
-//   kittens = [...kittens, name];
-//   return kittens;
-// }
-//
+function appendKitten(name){
+  kittens = [...kittens, name];
+  return kittens;
+}
+
 // function prependKittens(name){
 //   kittens = [name, ...kittens];
 //   return kittens;
@@ -43,6 +43,6 @@ destructivelyAppendKitten("Ralph");
 destructivelyPrependKitten("Bob");
 destructivelyRemoveLastKitten();
 destructivelyRemoveFirstKitten();
-// appendKitten("socks");
+appendKitten("socks");
 // prependKitten("socks")
 // removeLastKitten();
