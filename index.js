@@ -40,7 +40,7 @@ function destruvtivelyPrependKitten(name){
 //   return kittens;
 // }
 destructivelyAppendKitten("Ralph");
-destructivelyPrependKitten("socks");
+destructivelyPrependKitten("Ralph");
 // destructivelyRemoveLastKitten();
 // destructivelyRemoveFirstKitten();
 // appendKitten("socks");
