@@ -35,10 +35,10 @@ function removeLastKitten(){
   const newKittens = kittens.slice(0, kittens.length -1);
   return newKittens;
 }
-// function removeFirstKitten(){
-//   kittens = kittens.slice(1);
-//   return kittens;
-// }
+function removeFirstKitten(){
+  newKittens = kittens.slice(1);
+  return newKittens;
+}
 destructivelyAppendKitten("Ralph");
 destructivelyPrependKitten("Bob");
 destructivelyRemoveLastKitten();
