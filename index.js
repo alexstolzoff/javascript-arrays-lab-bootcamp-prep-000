@@ -2,7 +2,7 @@ const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"];
 
 
-function destructivelyAppendKitten(name){
+function destructivelyAppendKitten("name"){
   kittens.push(name);
   return kittens;
 }
@@ -39,7 +39,7 @@ function destructivelyAppendKitten(name){
 //   kittens = kittens.slice(1);
 //   return kittens;
 // }
-destructivelyAppendKitten(Ralph);
+destructivelyAppendKitten("Ralph");
 // destructivelyPrependKitten("socks");
 // destructivelyRemoveLastKitten();
 // destructivelyRemoveFirstKitten();
