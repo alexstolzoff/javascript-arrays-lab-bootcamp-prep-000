@@ -27,10 +27,10 @@ function appendKitten(name){
   return newKittens;
 }
 
-// function prependKittens(name){
-//   kittens = [name, ...kittens];
-//   return kittens;
-// }
+function prependKittens(name){
+  const newKittens = kittens = [name, ...kittens];
+  return newKittens;
+}
 // function removeLastKitten(){
 //   kittens = slice(0, kittens.length -1);
 //   return kittens;
