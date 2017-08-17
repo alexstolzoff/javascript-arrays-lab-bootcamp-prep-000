@@ -40,9 +40,9 @@ function removeFirstKitten(){
   return kittens;
 }
 destructivelyAppendKitten("Ralph");
-destructivelyPrependKitten("socks");
-destructivelyRemoveLastKitten();
-destructivelyRemoveFirstKitten();
-appendKitten("socks");
-prependKitten("socks")
-removeLastKitten();
+// destructivelyPrependKitten("socks");
+// destructivelyRemoveLastKitten();
+// destructivelyRemoveFirstKitten();
+// appendKitten("socks");
+// prependKitten("socks")
+// removeLastKitten();
