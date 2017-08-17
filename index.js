@@ -46,3 +46,4 @@ destructivelyRemoveFirstKitten();
 appendKitten("Broom");
 prependKitten("Arnold")
 removeLastKitten();
+removeFirstKitten()
