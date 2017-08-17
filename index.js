@@ -17,11 +17,11 @@ function destructivelyRemoveLastKitten(){
   return kittens;
 }
 
-// function destructivelyRemoveFirstKitten(){
-//   kittens.shift();
-//   return kittens;
-// }
-//
+function destructivelyRemoveFirstKitten(){
+  kittens.shift();
+  return kittens;
+}
+
 // function appendKitten(name){
 //   kittens = [...kittens, name];
 //   return kittens;
@@ -42,7 +42,7 @@ function destructivelyRemoveLastKitten(){
 destructivelyAppendKitten("Ralph");
 destructivelyPrependKitten("Bob");
 destructivelyRemoveLastKitten();
-// destructivelyRemoveFirstKitten();
+destructivelyRemoveFirstKitten();
 // appendKitten("socks");
 // prependKitten("socks")
 // removeLastKitten();
