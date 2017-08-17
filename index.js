@@ -44,5 +44,5 @@ destructivelyPrependKitten("Bob");
 destructivelyRemoveLastKitten();
 destructivelyRemoveFirstKitten();
 appendKitten("Broom");
-// prependKitten("socks")
+prependKitten("Socks")
 // removeLastKitten();
